@@ -7,7 +7,7 @@ Introduction goes here.
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_option_type_styles', github: '[your-github-handle]/spree_option_type_styles', branch: 'X-X-stable'
+  gem 'spree_option_type_styles', github: 'WebGents/spree_option_type_styles', branch: 'X-X-stable'
   ```
 
   The `branch` option is important: it must match the version of Spree you're using.
