@@ -13,7 +13,7 @@ Deface::Override.new(
   virtual_path: 'spree/admin/option_types/edit',
   insert_before: '[data-hook="option_header"] tr th:last-child',
   text: <<-ERB
-    <th>style value</th>
+    <th><%= Spree.t('option_types.style') %></th>
   ERB
 )
 

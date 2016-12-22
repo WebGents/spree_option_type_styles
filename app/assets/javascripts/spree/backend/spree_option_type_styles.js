@@ -3,9 +3,12 @@
 //= require jquery
 //= require jquery.minicolors
 
-
-$(document).ready(function() {
+var spree_option_type_styles_ready;
+spree_option_type_styles_ready = function() {
   $('input[type=text].color-picker').minicolors({
     theme: 'bootstrap'
   });
-});
+};
+
+$(document).ready(spree_option_type_styles_ready);
+$(document).on('page:load', spree_option_type_styles_ready);
