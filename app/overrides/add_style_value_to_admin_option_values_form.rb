@@ -17,11 +17,11 @@ Deface::Override.new(
   ERB
 )
 
-# Deface::Override.new(
-#   name: 'jkkj',
-#   virtual_path: 'spree/admin/option_types/edit',
-#   insert_before: '[data-hook="option_header"] tr th:last-child',
-#   text: <<-ERB
-#     <td class="style-value"><%= option_type.style %></td>
-#   ERB
-# )
+Deface::Override.new(
+  name: 'jkkj',
+  virtual_path: 'spree/admin/option_types/edit',
+  insert_before: '[data-hook="option_header"] tr th:last-child',
+  text: <<-ERB
+    <td class="style-value"><%= @option_type.style %></td>
+  ERB
+)

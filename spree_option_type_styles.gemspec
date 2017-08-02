@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_option_type_styles'
-  s.version     = '3.1.0'
+  s.version     = '3.2.0'
   s.summary     = 'Spree extension'
   s.description = 'Adds style to option types'
   s.required_ruby_version = '>= 2.1.0'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.1.0'
+  s.add_dependency 'spree_core', '~> 3.2.0'
   #s.add_dependency 'jquery-minicolors-rails'
 
 
