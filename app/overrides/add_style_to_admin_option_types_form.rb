@@ -6,7 +6,7 @@ Deface::Override.new(
   text: <<-ERB
     <div class="col-md-4">
       <div class="form-group field">
-        <%= label_tag Spree.t("option_types.style") %>
+        <%= label_tag "Style" %>
         <%= f.select(:style, Spree::OptionType.styles.keys.map {|style| [style.titleize,style]}, {}, { class: "form-control" })%>
       </div>
     </div>
